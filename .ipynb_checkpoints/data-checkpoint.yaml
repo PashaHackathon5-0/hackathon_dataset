@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['back', 'front', 'left', 'right']
+
+roboflow:
+  workspace: nik-lijc5
+  project: google_cars_images
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/nik-lijc5/google_cars_images/dataset/2
